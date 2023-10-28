@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+    .prev {
+        display: none;
+    }
+    .next {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .promo {
+        min-height: 550px;
+        padding: 21px 0 63px 0;
+    }
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-bottom: 53px;
+        &__logo {
+            width: 30%
+        }
+        &__official {
+            font-size: 1.7rem;
+            span {
+                font-size: 1.5rem;
+            }
+        }
+        &__contacts {
+            align-items: center;
+            gap: 15px;
+        }
+
+        .buttons {
+            width: 190px;
+            height: 45px;
+            font-size: 1rem;
+        }
+    }
+    .wrapper {
+        align-items: center;
+        &__order {
+            align-items: center;
+        }
+    }
+
+    .advantage {
+        min-height: 400px;
+        padding: 43px 0 43px 0;
+    }
+
+    .consultation {
+        padding: 70px 0 70px 0;
+        &__container {
+            text-align: center;  
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+    }
+    .info-item {
+        width: 45%;
+    }
+}
+@media (max-width: 767px) {
+    .advantage {
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+    .icons-box {
+        flex-wrap: wrap;
+    }
+    .consultation {
+        padding: 60px 0 30px 0;
+        &__title {
+            font-size: 2rem;
+        }
+        &__subtitle {
+            font-size: 1.1rem;
+        }
+    }
+    .carousel {
+        padding: 65px 30px;
+    }
+    .catalog {
+        &__tabs {
+            margin-bottom: 45px;
+        }
+        &__tab {
+            width: 150px;
+            height: 52px;
+            font-size: .9375rem;
+        }
+    }
+    .info-item {
+        text-align: center;
+        gap: 30px;
+    }
+}
+@media (max-width: 575px) {
+    // .header {
+    //     flex-direction: column;
+    //     // justify-content: space-between;
+    //     // align-items: center;
+    //     margin-bottom: 80px;
+    // }
+  
+}

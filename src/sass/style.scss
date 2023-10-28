@@ -1,0 +1,70 @@
+@import 'base/variables';
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import 'sections/promo';
+@import 'sections/advantage';
+@import 'sections/consultation';
+@import 'sections/carousel';
+@import 'sections/catalog';
+@import 'sections/reviews';
+@import 'sections/footer';
+@import 'sections/overlay';
+@import 'base/media.scss';
+
+
+
+
+.buttons {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background: $color-red;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    &_big {
+        width: 300px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    &_small {
+        width: 135px;
+        height: 44px;
+        font-size: 0.875rem;
+    }
+}
+
+.title {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_thin {
+        font-weight: 400;
+    }
+    &_small {
+        font-size: 1rem;
+        text-transform: none;
+    }
+}
+
+.link-red {
+    color: $color-red;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}

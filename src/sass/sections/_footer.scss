@@ -1,0 +1,49 @@
+.footer {
+    position: relative;
+    height: 630px;
+}
+
+.info-item {
+    width: 24%;
+    height: 270px;
+    padding: 50px 0;
+    background-color: $color-red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    &__location {
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    &__phone {
+        font-size: 1.25rem;
+        font-weight: 700;
+        &-link {
+            color: #FFF;
+            text-decoration: none;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+    &__icons-box{
+        display: flex;
+        gap: 27px;
+    }
+    &__icon-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 53px;
+        height: 52px;
+        border: 2px solid white;
+        border-radius: 100%;
+    }
+}
