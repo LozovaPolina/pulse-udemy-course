@@ -1,21 +1,20 @@
 .footer {
     position: relative;
-    height: 630px;
 }
 
 .info-item {
-    width: 24%;
-    height: 270px;
-    padding: 50px 0;
+    width: 35%;
+    padding: 3.125rem .625rem;
     background-color: $color-red;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 36px;
+    gap: 2.25rem;
     &__location {
         color: #FFF;
         font-size: 1.25rem;
@@ -35,7 +34,7 @@
     }
     &__icons-box{
         display: flex;
-        gap: 27px;
+        gap: 1.6875rem;
     }
     &__icon-wrapper {
         display: flex;

@@ -1,10 +1,9 @@
 .reviews {
-    min-height: 940px;
-    padding: 0 0 40px 0;
+    padding: 0 0 2.5rem 0;
     &__items-box {
         display: flex;
         flex-direction: column;
-        gap: 60px;
+        gap: 3.75rem;
         max-width: 57.1875rem;
     }
     &__title {
@@ -17,7 +16,6 @@
     align-items: flex-start;
     column-gap: 6.8%;
     &__icon {
-        flex: 1 1 19%;
         min-height: 169px;
         // padding-top: 18.47%;
         // transform:  translateY(-50%);

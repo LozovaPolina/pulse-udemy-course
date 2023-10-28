@@ -1,20 +1,13 @@
 .promo {
-    min-height: 650px;
     background: url(../img/bg.jpg) center (center / cover) no-repeat;
-    padding: 21px 0 93px 0;
+    padding: 1.3125rem 0 5.8125rem 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 90px;
-    &__logo { 
-        width: 27%;
-        img {
-            width: 100%;
-        }
-    }
+    margin-bottom: 5.625rem;
     &__official {
         color: #FFF;
         font-size: 0.75rem;
@@ -52,20 +45,23 @@
         font-size: 2.625rem;
         font-weight: 700;
         text-transform: uppercase;
-        margin-bottom: 17px;
+        margin-bottom: 1.0625rem;
     }
     &__subtitle {
         color: #FFF;
-        font-size: 1.5em;
+        font-size: 1.5rem;
         font-weight: 500;
         text-transform: uppercase;
-        margin-bottom: 60px;
+        margin-bottom: 3.75rem;
     }
     &__icons-box {
         display: flex;
-        justify-content: space-between;
-        width: 425px;
-        margin-bottom: 67px;
+        justify-content: center;
+        gap: 15%;
+        // justify-content: space-between;
+        width: 46%;
+        // width: 26.5625rem;
+        margin-bottom: 4.1875rem;
     }
     &__icons {
         color: #FFF;

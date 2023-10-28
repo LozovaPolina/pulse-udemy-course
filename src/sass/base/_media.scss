@@ -5,20 +5,22 @@
     .next {
         display: none;
     }
+    .info-item {
+        &__location {
+            font-size: 1rem;
+        }
+    }
+    
 }
 @media (max-width: 991px) {
     .promo {
-        min-height: 550px;
-        padding: 21px 0 63px 0;
+        padding: 1.3125rem 0 3.9375rem 0;
     }
     .header {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
-        margin-bottom: 53px;
-        &__logo {
-            width: 30%
-        }
+        gap: 2.5rem;
+        margin-bottom: 3.3125rem;
         &__official {
             font-size: 1.7rem;
             span {
@@ -27,12 +29,12 @@
         }
         &__contacts {
             align-items: center;
-            gap: 15px;
+            gap: .9375rem;
         }
 
         .buttons {
-            width: 190px;
-            height: 45px;
+            width: 11.875rem;
+            height: 2.8125rem;
             font-size: 1rem;
         }
     }
@@ -44,12 +46,11 @@
     }
 
     .advantage {
-        min-height: 400px;
-        padding: 43px 0 43px 0;
+        padding: 2.6875rem 0 2.6875rem 0;
     }
 
     .consultation {
-        padding: 70px 0 70px 0;
+        padding: 4.375rem 0 4.375rem 0;
         &__container {
             text-align: center;  
         }
@@ -57,21 +58,25 @@
     .feed-form {
         margin: 0 auto;
     }
-    .info-item {
-        width: 45%;
-    }
+
 }
 @media (max-width: 767px) {
+
+    .wrapper {
+        &__title {
+            font-size: 1.875rem;
+        }
+    }
     .advantage {
         &__title {
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
     }
     .icons-box {
         flex-wrap: wrap;
     }
     .consultation {
-        padding: 60px 0 30px 0;
+        padding: 3.75rem 0 1.875rem 0;
         &__title {
             font-size: 2rem;
         }
@@ -80,29 +85,101 @@
         }
     }
     .carousel {
-        padding: 65px 30px;
+        padding: 4.0625rem 1.875rem;
+    }
+    .carousel .tns-item img {
+        width: 100%;
     }
     .catalog {
         &__tabs {
-            margin-bottom: 45px;
+            margin-bottom: 2.8125rem;
         }
         &__tab {
-            width: 150px;
-            height: 52px;
+            width: 9.375rem;
+            height: 3.25rem;
             font-size: .9375rem;
         }
     }
     .info-item {
-        text-align: center;
-        gap: 30px;
+        width: 50%;
+        gap: .7rem;
+        padding: 2.1875rem .625rem;
+        &__icons-box {
+            gap: 0.7rem;
+        }
     }
 }
 @media (max-width: 575px) {
-    // .header {
-    //     flex-direction: column;
-    //     // justify-content: space-between;
-    //     // align-items: center;
-    //     margin-bottom: 80px;
-    // }
-  
+    .header {
+        &__official {
+            font-size: 1.5rem;
+        }
+    }
+    .wrapper {
+        &__title {
+            font-size: 1.6rem;
+        }
+        &__subtitle {
+            text-align: center;
+            font-size: 1.3rem;
+        }
+        &__icons-box {
+             
+        }
+    }
+    .consultation{
+        &__title {
+            font-size: 1.5rem;
+        }
+        &__subtitle {
+            font-size: 1rem;
+        }
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .catalog {
+        &__tabs {
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+        &__title {
+            margin-bottom: 1.3rem;
+        }
+    }
+    .reviews__items-box {
+        gap: 3rem;
+    }
+    .item-reviews {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        &__body {
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+    }
+
+
+    .info-item {
+        width: 70%;
+        padding: 1rem .600rem;
+    }
+
+    .modal {
+        width: 321px;
+        .feed-form {
+            width: 265px;
+        }
+        .buttons_big {
+            width: 260px;
+        }
+        &__close {
+            top: 10px;
+            right: 10px;
+
+        }
+    }
 }

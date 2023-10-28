@@ -19,7 +19,7 @@
 @import 'sections/reviews';
 @import 'sections/footer';
 @import 'sections/overlay';
-@import 'base/media.scss';
+
 
 
 
@@ -68,3 +68,5 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+
+@import 'base/media.scss';
