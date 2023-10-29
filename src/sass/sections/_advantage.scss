@@ -17,7 +17,19 @@
         display: block;
         margin: 0 auto;
         margin-bottom: 1.875rem;
+        &_animated {
+            // animation-name: heartbeat;
+            // animation-duration: 1.5s;  
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            animation: heartbeat 1.5s ease  infinite;
+            // animation: name duration timing-function delay iteration-count direction fill-mode;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
+
     &__title {
         color: #0D0D0D;
         text-align: center;

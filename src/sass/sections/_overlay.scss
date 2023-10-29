@@ -15,6 +15,9 @@
     background: #F2F2F2;
     width: 382px;
     padding: 2.5rem .625rem;
+    .feed-form {
+        margin: 0 auto;
+    }
     &__close {
         position: absolute;
         top: 0rem;
@@ -23,6 +26,7 @@
         line-height: 21px;
         color: $color-red;
         cursor: pointer;
+
     }
 
     &__subtitle {
